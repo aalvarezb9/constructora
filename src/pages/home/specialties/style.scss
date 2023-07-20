@@ -1,0 +1,26 @@
+.specialties {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  
+  .specialties-title {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .specialties-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    @media (max-width: 560px) {
+      grid-template-columns: 1fr;
+    }
+    .specialty {
+      padding: 20px;
+      text-align: center;
+      .specialty-icon {
+        font-size: 50px;
+        color: var(--orange);
+      }
+    }
+  }
+}

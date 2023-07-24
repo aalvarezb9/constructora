@@ -1,16 +1,15 @@
 
 .showcases {
   height: 100vh;
+  opacity: 0.5;
 }
 
 .showcase-ap, .showcase-an {
-  color: var(--orange);
   font-size: 2rem;
   font-weight: bolder;
 }
 
 .carousel-caption {
-  color: var(--orange)!important;
   font-size: 2rem;
   font-weight: bolder;
 }

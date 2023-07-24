@@ -9,7 +9,6 @@ import { ImLocation } from "react-icons/im"
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
-import scrollToTop from "../../utils/scrollToTop";
 
 const Footer = () => {
 
@@ -25,7 +24,7 @@ const Footer = () => {
       <footer id="footer" className="footer">
         <ContentWrapper>
           <ul className="menuItems">
-            <li onClick={scrollToTop} className="menuItem">
+            <li className="menuItem">
               {`\u00A9 ${(new Date()).getFullYear()} Del Valle Construction LLC`}
             </li>
           </ul>

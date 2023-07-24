@@ -5,6 +5,7 @@ import './style.scss'
 
 import Banner from './banner/Banner'
 import WorkCard from './workCard/WorkCard'
+import ProjectShowcase from './projectShowcase/ProjectShowcase'
 
 import logos from '../../utils/logos'
 import Specialties from './specialties/Specialties'
@@ -41,6 +42,7 @@ const Home = () => {
         }
       }) }
       <Specialties />
+      <ProjectShowcase logos={logos} />
     </div>
   )
 }

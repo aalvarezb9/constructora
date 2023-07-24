@@ -80,6 +80,7 @@ const Header = () => {
         <ul className="menuItems">
           <li className="menuItem" onClick={() => handleScrollToDiv('workCardsRef')}>What we do</li>
           <li className="menuItem"  onClick={() => handleScrollToDiv('specialties')}>Our specialties</li>
+          <li className="menuItem"  onClick={() => handleScrollToDiv('showcase')}>Project Showcase</li>
           <li className="menuItem" onClick={() => handleScrollToDiv('footer')}>Contact</li>
           <li className="menuItem"></li>
         </ul>

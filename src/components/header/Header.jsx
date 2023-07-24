@@ -9,7 +9,6 @@ import ContentWrapper from '../contentWrapper/ContentWrapper'
 
 import './style.scss'
 
-import scrollToTop from '../../utils/scrollToTop'
 import { getMobile } from '../../store/mobileSlice'
 
 const Header = () => {
@@ -74,7 +73,7 @@ const Header = () => {
   return (
     <header className={`header ${mobileMenu ? 'mobileView': ''} ${show}`}>
       <ContentWrapper>
-        <div onClick={scrollToTop} className="logo">
+        <div className="logo">
           <GiMineTruck className='truckLogo' />
         </div>
         <ul className="menuItems">
